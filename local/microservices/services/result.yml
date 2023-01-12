@@ -14,3 +14,6 @@ spec:
       nodePort: 31001
   selector:
     app: result
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 10

@@ -20,3 +20,6 @@ spec:
     matchLabels:
       type: frontend
   replicas: 3
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 600
